@@ -13,7 +13,7 @@ end
 def assign_rooms(speakers)
   new_array = Array.new
   for speaker in speakers
-    new_array << "Hello, #{speaker}! You'll be assigned to room #{speakers.index(speaker)}!"
+    new_array << "Hello, #{speaker}! You'll be assigned to room #{speakers.index(speaker)+1}!"
 
   end
   return new_array
