@@ -10,10 +10,10 @@ def batch_badge_creator(array)
   return new_array
 end
 
-def assign_rooms(speakers)
+def assign_rooms(array)
   new_array = Array.new
-  for speaker in speakers
-    new_array << "Hello, #{speaker}! You'll be assigned to room #{speakers.index(speaker)+1}!"
+  for speaker in array
+    new_array << "Hello, #{speaker}! You'll be assigned to room #{array.index(speaker)+1}!"
   end
   return new_array
 end
