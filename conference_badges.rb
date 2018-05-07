@@ -1,4 +1,5 @@
 def badge_maker(name)
+  puts "Hello, my name is #{name}."
   return "Hello, my name is #{name}."
 end
 
@@ -22,5 +23,3 @@ def printer(array)
     batch_badge_creator(array)
     assign_rooms(array)
 end
-
-printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
