@@ -23,3 +23,5 @@ def printer(array)
     assign_rooms(array)
     binding.pry
 end
+
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
