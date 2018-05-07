@@ -21,7 +21,6 @@ end
 def printer(array)
     batch_badge_creator(array)
     assign_rooms(array)
-    binding.pry
 end
 
 printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
